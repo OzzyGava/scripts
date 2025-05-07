@@ -3,7 +3,8 @@
 
 set -e
 
-RUDDER_SERVER="rudder-server.changeme"
+# Prompt for Rudder server instead of using a static variable
+read -p "Enter the Rudder server FQDN or IP (e.g. rudder.example.com): " RUDDER_SERVER
 INSECURE=true
 
 echo "[*] Starting Rudder agent bootstrap..."
