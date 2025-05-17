@@ -81,8 +81,8 @@ echo "[*] Finishing setup: pulling policies and submitting report..."
 rudder agent update
 rudder agent check
 rudder agent inventory
-sleep 5
 echo "Waiting 5 seconds for rudder server to update..."
+sleep 5
 rudder agent run
 
 echo "[✅] Rudder agent fully registered and policy-compliant with $RUDDER_SERVER"
