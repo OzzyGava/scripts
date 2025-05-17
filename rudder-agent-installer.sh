@@ -81,5 +81,6 @@ echo "[*] Finishing setup: pulling policies and submitting report..."
 rudder agent update
 rudder agent check
 rudder agent inventory
+rudder agent run
 
 echo "[✅] Rudder agent fully registered and policy-compliant with $RUDDER_SERVER"
